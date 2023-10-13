@@ -1,6 +1,5 @@
 "use strict";
 ////ANOTATION/INFERENCE////
-var _a, _b;
 // let produto: string = "Livro";
 // let preco: number = 200;
 // const barato = preco < 400 ? true : "produto caro";
@@ -254,25 +253,29 @@ var _a, _b;
 // console.log(normalizar(42));
 ////Any////
 ////Null e Undefined////
-const button = document.querySelector("button");
-const config = localStorage.getItem("config");
-if (button !== null) {
-  button.click();
-}
-if (button) {
-  button.click();
-}
-console.log(typeof null); //=> um bug da engines(mantido para não quebrar códigos antigos)
-button === null || button === void 0 ? void 0 : button.click();
-let total;
-console.log(total);
-const jogo = {
-  nome: "Ragnarok",
-};
-const livro = {};
-if (jogo.nome) {
-  (_a = jogo.nome) === null || _a === void 0 ? void 0 : _a.toLowerCase();
-}
-(_b = livro.nome) === null || _b === void 0 ? void 0 : _b.toLowerCase();
+// const button = document.querySelector("button");
+// const config = localStorage.getItem("config");
+// if (button !== null) {
+//   button.click();
+// }
+// if (button) {
+//   button.click();
+// }
+// console.log(typeof null); //=> um bug da engines(mantido para não quebrar códigos antigos)
+// button?.click();
+// let total;
+// console.log(total);
+// ///Propriedades Opcionais///
+// interface Produto {
+//   nome?: string;
+// }
+// const jogo: Produto = {
+//   nome: "Ragnarok",
+// };
+// const livro: Produto = {};
+// if (jogo.nome) {
+//   jogo.nome?.toLowerCase();
+// }
+// livro.nome?.toLowerCase();
 ///Propriedades Opcionais///
 ////Null e Undefined////
