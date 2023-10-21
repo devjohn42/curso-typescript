@@ -19,4 +19,5 @@ function toggleMenu(event) {
         }
     }
 }
-buttonMobile === null || buttonMobile === void 0 ? void 0 : buttonMobile.addEventListener("pointerdown", toggleMenu);
+buttonMobile?.addEventListener("pointerdown", toggleMenu);
+//# sourceMappingURL=script.js.map
