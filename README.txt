@@ -1,1 +1,1 @@
-a pasta da seção05 está com o nome secao, para facilitar
+as pastas que estiverem com o nome secao, foram alteradas para melhorar a compilação do código para outro diretório
